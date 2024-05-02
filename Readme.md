@@ -50,3 +50,14 @@ It also consists of three areas
 
 NOTE : When we add @RestController Annotation it adds the REST support.
 
+### Java JSON Data Binding
+
+- Data binding is the process of converting JSON data to a java POJO
+- Also known as Mapping, Serialization/ Deserialization, Marshalling/ Unmarshalling.
+- Spring uses the Jackson Project behind the scenes, jackson handles data binding between JSON and Java POJO
+
+### Path Variables
+
+- Retrieve a single student by id /api/students/{studentId}
+- This studentId is known as path variable
+
