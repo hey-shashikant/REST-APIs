@@ -61,3 +61,12 @@ NOTE : When we add @RestController Annotation it adds the REST support.
 - Retrieve a single student by id /api/students/{studentId}
 - This studentId is known as path variable
 
+### Exception Handling
+
+- Create a custom error response class
+- Create a custom exception class
+- Update REST service to throw exception if student not found
+- Add an exception handler method using @ExceptionHandler
+
+
+
